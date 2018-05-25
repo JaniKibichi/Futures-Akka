@@ -35,4 +35,4 @@ git checkout -b for_comprehensions_for_futures futures_inside_actors
 git checkout -b handling_callbacks_on_futures for_comprehensions_for_futures
 ````
 - Create the file to handle the actor system: <b>com.github.janikibichi.learnakka.futures.HandleCallBacksOnFutures.scala</b>
-- Run the App to [see HandleCallBacksOnFutures.](https://asciinema.org/a/2FfKRN0iKXxi3R19keXTxw4pf)
+- Run the App to [see HandleCallBacksOnFutures.](https://asciinema.org/a/DZi5q0C1bMqwC3mvQZI3Z1Icf)
