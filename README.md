@@ -50,3 +50,14 @@ git checkout -b reduce_a_sequence_of_futures create_parallel_apps_with_futures
 ````
 - Create the file to handle the actor system: <b>com.github.janikibichi.learnakka.futures.ReduceSequenceFutures.scala</b>
 - Run the App to [reduce a sequence of Futures.](https://asciinema.org/a/e1zqhQeZWZxXaT607ZY21hzSE)
+<br><br>
+- Branch out to explore read update agents
+````
+git checkout -b read_update_agents reduce_a_sequence_of_futures 
+````
+- Create the file to handle the actor system: <b>com.github.janikibichi.learnakka.futures.ReadUpdateAgents.scala</b>
+- Add the akka-agent dependency to build.sbt
+````
+libraryDependencies += "com.typesafe.akka" %% "akka-agent" % "2.5.12"
+````
+- Run the App to [read update agents.](https://asciinema.org/a/e1zqhQeZWZxXaT607ZY21hzSE)
