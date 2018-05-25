@@ -14,4 +14,4 @@ git checkout -b create_future master
 git checkout -b futures_with_actors create_future
 ````
 - Create the file to handle the actor system: <b>com.github.janikibichi.learnakka.futures.FuturesWithActors.scala</b>
-- Run the App to [futures with actors.]()
+- Run the App to [futures with actors.](https://asciinema.org/a/qE79GcrEny7fM0vmsM4e7afUN)
