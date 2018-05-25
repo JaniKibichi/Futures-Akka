@@ -7,7 +7,7 @@ import scala.concurrent.ExecutionContext.Implicits.global
 object ForComprehensionsForFutures extends App {
   val futureA = Future(20+30)
   val futureB = Future(30+30)
-  
+
   val finalFuture: Future[Int] = for{
     a <- futureA
     b <- futureB
