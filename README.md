@@ -36,3 +36,10 @@ git checkout -b handling_callbacks_on_futures for_comprehensions_for_futures
 ````
 - Create the file to handle the actor system: <b>com.github.janikibichi.learnakka.futures.HandleCallBacksOnFutures.scala</b>
 - Run the App to [see HandleCallBacksOnFutures.](https://asciinema.org/a/DZi5q0C1bMqwC3mvQZI3Z1Icf)
+<br><br>
+- Branch out to explore creating parallel apps using futures
+````
+git checkout -b create_parallel_apps_with_futures handling_callbacks_on_futures
+````
+- Create the file to handle the actor system: <b>com.github.janikibichi.learnakka.futures.ParallelFutures.scala</b>
+- Run the App to [see HandleCallBacksOnFutures.](https://asciinema.org/a/DZi5q0C1bMqwC3mvQZI3Z1Icf)
