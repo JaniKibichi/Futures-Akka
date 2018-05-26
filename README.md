@@ -60,4 +60,4 @@ git checkout -b read_update_agents reduce_a_sequence_of_futures
 ````
 libraryDependencies += "com.typesafe.akka" %% "akka-agent" % "2.5.12"
 ````
-- Run the App to [read update agents.](https://asciinema.org/a/e1zqhQeZWZxXaT607ZY21hzSE)
+- Run the App to [read update agents.](https://asciinema.org/a/F6Eaqq5tqwvmRrwLHcvek3osx)
