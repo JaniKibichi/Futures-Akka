@@ -61,3 +61,10 @@ git checkout -b read_update_agents reduce_a_sequence_of_futures
 libraryDependencies += "com.typesafe.akka" %% "akka-agent" % "2.5.12"
 ````
 - Run the App to [read update agents.](https://asciinema.org/a/F6Eaqq5tqwvmRrwLHcvek3osx)
+<br><br>
+- Branch out to explore composing agents monadically
+````
+git checkout -b compose_agents_monadically read_update_agents
+````
+- Create the file to handle the actor system: <b>com.github.janikibichi.learnakka.futures.MonadicAgents.scala</b>
+- Run the App to [read compose agents monadically.](https://asciinema.org/a/6ta5iMkaJ5l9tys3Vhqxcxkvd)
